@@ -1,1 +1,11 @@
-! cqdad
+services:
+  jellyfin:
+    image: jellyfin/jellyfin:latest
+    container_name: jellyfin
+    user: 1000:1000
+    network_mode: host
+    volumes:
+      - ./config:/config
+      - ./cache:/cache
+      - /home/jokil/film:/media/movies:ro
+    restart: unless-stopped
