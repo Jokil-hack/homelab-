@@ -163,3 +163,10 @@ PRAGMA temp_store=2;
 [2026-07-28 14:24:31.326 +00:00] [INF] [7] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Clean Transcode Directory" Completed after 0 minute(s) and 0 seconds
 [2026-07-28 14:24:31.329 +00:00] [INF] [9] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Clean up collections and playlists" Completed after 0 minute(s) and 0 seconds
 [2026-07-28 14:24:34.686 +00:00] [INF] [10] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Update Plugins" Completed after 0 minute(s) and 3 seconds
+[2026-07-28 16:01:00.993 +00:00] [INF] [98] Emby.Server.Implementations.Session.SessionManager: Sending shutdown notifications
+[2026-07-28 16:01:01.001 +00:00] [INF] [96] Main: Running query planner optimizations in the database... This might take a while
+[2026-07-28 16:01:01.024 +00:00] [INF] [94] Emby.Server.Implementations.IO.LibraryMonitor: Stopping directory watching for path "/media/movies"
+[2026-07-28 16:01:01.028 +00:00] [INF] [96] Emby.Server.Implementations.ApplicationHost: Disposing "CoreAppHost"
+[2026-07-28 16:01:01.029 +00:00] [INF] [96] Emby.Server.Implementations.ApplicationHost: Disposing "MusicBrainzArtistProvider"
+[2026-07-28 16:01:01.029 +00:00] [INF] [96] Emby.Server.Implementations.ApplicationHost: Disposing "MusicBrainzAlbumProvider"
+[2026-07-28 16:01:01.029 +00:00] [INF] [96] Emby.Server.Implementations.ApplicationHost: Disposing "PluginManager"
